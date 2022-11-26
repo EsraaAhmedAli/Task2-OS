@@ -14,9 +14,8 @@ jobs:
 
 
     steps:
-      - name:  'Testing github action'
-        run: pwd
+      - name:  'printing folder content'
+        run: ls
 
-      - name:   'test printing'
-        run: echo Esraa 
+      
       
